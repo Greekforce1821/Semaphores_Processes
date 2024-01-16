@@ -54,7 +54,7 @@ This will display the usage of helper program's window with a list of options.
 
 ## Alternative usage (Optional)
 
-If you prefer not to use the command via `./main`, there is also an alternative usage:
+If you prefer not to use the command via `./Semaphores_Processes`, there is also an alternative usage:
 
   - You need to save the `src` folder to a specific location within your system where you believe it won't be altered.
 
@@ -64,13 +64,13 @@ If you prefer not to use the command via `./main`, there is also an alternative 
 
   - Issue the command: `nano ~/.bashrc` to insert the path from the main file.
 
-  - Insert the following command at the end of the file (.bashrc): `export PATH=$PATH:/home/username/Semaphores_Processes`
+  - Insert the following command at the end of the file (.bashrc): `export PATH=$PATH:/home/username/Semaphores_Processes/src/`
 
 **Warning:** You need to replace the username with the name you are using!
 
   - After issuing the above command, press `CTRL + O` to save, then press `ENTER`, and finally, press `CTRL + X` to exit the .bashrc file.
 
-  - Finally, execute the following command: `source ~/.bashrc` to update the .bashrc file so that you can run the `helper` command.
+  - Finally, execute the following command: `source ~/.bashrc` to update the .bashrc file so that you can run the `Semaphores_Processes` command.
 
 ## Error codes
 
