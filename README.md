@@ -27,9 +27,9 @@ If you face a situation full of errors, please contact the maintainers.
 
 ## Features
 
-**Helper** provides the following features:
+**Semaphores_Processes** provides the following features:
 
- - Display the contents of a given file sorted on the standard output.
+ - Display on standard output, and in a file, 3 different messages from 3 processes with the 2nd process appearing at most once more than the 1st and the 1st process appearing at most once more than the 3rd.
  -  Easy error detection.
  
 ## Requirements
@@ -46,7 +46,7 @@ Clone the above repository locally on your computer, open the src folder, run th
 
 After a successful cloning and compiling, the command to execute it:
 
-    ./helper
+    ./main
 
 This will display the usage of helper program's window with a list of options.
 
@@ -79,38 +79,21 @@ If you prefer not to use the command via `./main`, there is also an alternative 
 | Exit code | Description |
 | :---------: |  :---------:  |
 |     0     |   SUCCESS   |
-|     1     |EMPTY_FILEFILE_ERROR|
-|     2     |ARGUMENT_ERROR|
-|     3     |PIPE_CREATION_ERROR|
-|     4     |FORK_ERROR|
-|     5     |DUP_ERROR|
-|     6     |EXEC_ERROR|
-|     7     |READ_ERROR|
-|     8     |WRITE_ERROR|
-|     9     |CHILD_EXIT_ERROR|
-|    10     |WAIT_ERROR|
+|     1    |ERROR_CREATING_PROCESS_1|
+|     2     |ERROR_CREATING_PROCESS_2|
+|     3     |ERROR_CREATING_PROCESS_3|
+|     4     |ERROR_OPENING_FILE|
 
 **Exit Code 0:** If your program returns exit code 0 after execution, it means that it ran without any issues. :D
 
-**Exit Code 1:** If your program returns exit code 1 after execution, it means that it refers to the case where the given file is empty. There is no reason to execute the program on an empty file.
+**Exit Code 1:** If your program returns exit code 1 after execution, it means that it refers to the error arising from the unsuccessful creation of child process 1
 
-**Exit Code 2:** If your program returns exit code 2 after execution, it means that it corresponds to an incorrect number of arguments during program execution. The accompanying message informs the user about the correct usage of the program.
+**Exit Code 2:** If your program returns exit code 2 after execution, it means that it refers to the error arising from the unsuccessful creation of child process 2
 
-**Exit Code 3:** If your program returns exit code 3 after execution, it means that it pertains to an issue encountered during the creation of a pipe. It displays a message regarding the failure to create the pipe.
+**Exit Code 3:** If your program returns exit code 3 after execution, it means that it refers to the error arising from the unsuccessful creation of child process 3
 
-**Exit Code 4:** If your program returns exit code 4 after execution, it means that it refers to an error that occurred during the creation of a new process using fork(). It displays a message regarding the failure to create the new process.
+**Exit Code 4:** If your program returns exit code 4 after execution, it means that it refers to the error arising from the unsuccessful opening of the file for outputting data from the program.
 
-**Exit Code 5:** If your program returns exit code 5 after execution, it means that if there is an issue during the creation of a new copy of a file descriptor using dup2(), it displays a message regarding the failure of the copy process.
-
-**Exit Code 6:** If your program returns exit code 6 after execution, it means that it concerns any error during the execution of a new command using execlp(). It displays a message regarding the failure to execute the command.
-
-**Exit Code 7:** If your program returns exit code 7 after execution, it means that if there is an issue while reading data from the pipe, it displays a message regarding the failure of data reading.
-
-**Exit Code 8:** If your program returns exit code 8 after execution, it means that it refers to any problem during the writing of data to a pipe or any other write process. It displays a message regarding the failure of the writing process.
-
-**Exit Code 9:** If your program returns exit code 9 after execution, it means that it refers to cases where the child process terminates with a non-zero exit code. It displays a message indicating that the child process terminated with an error.
-
-**Exit Code 10:** If your program returns exit code 10 after execution, it means that it refers to any problem encountered while waiting for the completion of the child process using wait(). It displays a message regarding the failure of the waiting process.
 
 ## Reporting bugs
 
