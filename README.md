@@ -50,11 +50,11 @@ After a successful cloning and compiling, the command to execute it:
 
 This will display the usage of helper program's window with a list of options.
 
-![Usage](https://skokotos.com/images/usage2.png)
+![Usage](https://skokotos.com/images/usage3.png)
 
 ## Alternative usage (Optional)
 
-If you prefer not to use the command via `./helper`, there is also an alternative usage:
+If you prefer not to use the command via `./main`, there is also an alternative usage:
 
   - You need to save the `src` folder to a specific location within your system where you believe it won't be altered.
 
@@ -62,9 +62,9 @@ If you prefer not to use the command via `./helper`, there is also an alternativ
 
   - Copy the full path that the terminal displayed to you and open another terminal window.
 
-  - Issue the command: `nano ~/.bashrc` to insert the path from the helper file.
+  - Issue the command: `nano ~/.bashrc` to insert the path from the main file.
 
-  - Insert the following command at the end of the file (.bashrc): `export PATH=$PATH:/home/username/helper`
+  - Insert the following command at the end of the file (.bashrc): `export PATH=$PATH:/home/username/Semaphores_Processes`
 
 **Warning:** You need to replace the username with the name you are using!
 
@@ -74,7 +74,7 @@ If you prefer not to use the command via `./helper`, there is also an alternativ
 
 ## Error codes
 
-**Helper** has an integrated error system with numerical codes. Each code corresponds to a string explaining the error. Below, you will find the table of possible errors:
+**Semaphores_Processes** has an integrated error system with numerical codes. Each code corresponds to a string explaining the error. Below, you will find the table of possible errors:
 
 | Exit code | Description |
 | :---------: |  :---------:  |
