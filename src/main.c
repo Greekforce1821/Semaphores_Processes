@@ -1,3 +1,7 @@
+/* Λειτουργικά Συστήματα | Επεισόδιο ΙV | Ομάδα Χρηστών ΙΙΙ | Σημαφόροι  */
+
+/* -------------------------------------------------------------- */
+
 #include "functions.h"
 #include "semaphores.h"
 #include <stdlib.h>
@@ -67,3 +71,8 @@ int main() {
 
     return SUCCESS;
 }
+
+/* -------------------------------------------------------------- */
+
+/* You reached the end of the following file :D 
+   CHRISTOS - SPYRIDON KARYDIS & SPYRIDON - EFTYCHIOS KOKOTOS */

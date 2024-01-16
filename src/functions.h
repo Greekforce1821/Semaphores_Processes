@@ -1,3 +1,7 @@
+/* Λειτουργικά Συστήματα | Επεισόδιο ΙV | Ομάδα Χρηστών ΙΙΙ | Σημαφόροι  */
+
+/* -------------------------------------------------------------- */
+
 #ifndef FUNCTIONS_H // Ελέγχει αν το αρχείο κεφαλίδας δεν έχει ήδη περιληφθεί
 #define FUNCTIONS_H
 
@@ -13,3 +17,8 @@
 void displayErrorMessage(const char *message, int code);
 
 #endif /* FUNCTIONS_H */ // Τέλος του "συμβολαίου" για την αποφυγή διπλής ενσωμάτωσης του αρχείου κεφαλίδας
+
+/* -------------------------------------------------------------- */
+
+/* You reached the end of the following file :D 
+   CHRISTOS - SPYRIDON KARYDIS & SPYRIDON - EFTYCHIOS KOKOTOS */
