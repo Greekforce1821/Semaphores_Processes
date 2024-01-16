@@ -40,17 +40,17 @@ If you face a situation full of errors, please contact the maintainers.
 
 ## Installation
 
-Clone the above repository locally on your computer, open the src folder, run the command 'make' in the terminal, and finally, execute the command `./main`.
+Clone the above repository locally on your computer, open the src folder, run the command 'make' in the terminal, and finally, execute the command `./Semaphores_Processes`.
 
 ## Basic usage
 
 After a successful cloning and compiling, the command to execute it:
 
-    ./main
+    ./Semaphores_Processes
 
 This will display the usage of helper program's window with a list of options.
 
-![Usage](https://skokotos.com/images/usage3.png)
+![Usage](https://skokotos.com/images/semaphores.png)
 
 ## Alternative usage (Optional)
 
