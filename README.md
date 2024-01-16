@@ -115,7 +115,7 @@ If you prefer not to use the command via `./helper`, there is also an alternativ
 ## Reporting bugs
 
 
-When a bug is found, please do report it by [opening an issue at github](https://github.com/Greekforce1821/helper/issues), as already stated above.
+When a bug is found, please do report it by [opening an issue at github](https://github.com/Greekforce1821/Semaphores_Processes/issues), as already stated above.
 
 In your report you should, at the very least, state your **Linux version**, **GCC version**, **Kernel version** and **CPU version (x86 or x64)** of installation.
 
